@@ -1,9 +1,6 @@
 window.registerPlugin({
   name: 'copy-plugin',
   register: ctx => {
-	 
-	console.log(ctx.getPremium());
-	console.log(ctx.getPremium());
     console.log('example-plugin', 'register', ctx);
      ctx.statusBar.tapMenus(menus => {
             menus['plugin-copy'] = {
